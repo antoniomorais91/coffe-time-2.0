@@ -1,0 +1,410 @@
+@media (max-width: 1900px) {
+  .clubArticle {
+    padding: 2em;
+    width: 54vw;
+    height: 74vh;
+  }
+
+  .clubArticle p {
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 2.3em;
+    text-align: justify;
+  }
+
+  .clubArticle button {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header nav h1 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 1200px) {
+  nav ul li {
+    font-size: 0.8em;
+  }
+
+  nav ul li a {
+    padding: 0.4em 0.7em 0.4em 0.7em;
+  }
+
+  .TheCoffee {
+    padding: 3em;
+    align-items: center;
+  }
+
+  .TheCoffee h2 {
+    padding: 0.8em;
+    font-size: 3em;
+  }
+
+  .aCoffee {
+    padding: 1em;
+    width: 100%;
+  }
+
+  .aCoffee p {
+    padding: 0.8;
+    font-size: 0.8em;
+    letter-spacing: 0.4em;
+    line-height: 2.4em;
+    text-align: justify;
+  }
+
+  .TheCoffeeTwo {
+    padding: 1em;
+    align-items: center;
+  }
+
+  .TheCoffeeTwo h2 {
+    padding: 0.8em;
+    font-size: 3em;
+  }
+
+  .TheCoffeeTwo span {
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  .TheCoffeeTwo .aCoffee {
+    padding: 10px;
+    width: 490px;
+  }
+
+  #Products {
+    padding: 3em;
+  }
+
+  #Products h2 {
+    padding: 0.8em;
+    font-size: 2.4em;
+  }
+
+  .aProducts {
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aProducts img {
+    margin: 1em;
+    display: block;
+    max-width: 60%;
+  }
+
+  .aProducts figcaption {
+    padding: 0.3em;
+    font-size: 1.3em;
+    font-weight: 800;
+  }
+
+  .aProducts p {
+    padding: 0.3em;
+    font-size: 1.4em;
+    font-weight: 800;
+  }
+
+  footer article {
+    padding: 10px;
+    width: 300px;
+  }
+
+  footer article h2 {
+    padding: 0.5em;
+  }
+
+  footer article h3 {
+    padding: 0.3em;
+  }
+
+  footer form input {
+    margin: 0.8em;
+    width: 200px;
+  }
+
+  .media {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  #club {
+    padding: 1em;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  .clubArticle {
+    padding: 1em;
+    width: 70vw;
+    height: 90%;
+  }
+  
+  .clubArticle h2 {
+    padding: 1em;
+    color: #260b01;
+    font-size: 3em;
+  }
+  
+  .clubArticle p {
+    padding: 1em;
+    font-size: 1.3em;
+  }
+  
+  .clubArticle button {
+    margin-top: 30px;
+  }
+
+  #contact {
+    justify-content: center;
+  }
+  
+  .contactArticle {
+    padding: 1em;
+    width: 72vw;
+    height: 96%;
+  }
+  
+  .contactArticle h2 {
+    padding: 1em;
+    color: #260b01;
+    font-size: 3em;
+  }
+  
+  .contactArticle h4 {
+    padding: 0 0 1.4em 1.4em;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 786px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  main aside {
+    width: 100vw;
+  }
+
+  main aside article figure img {
+    width: 180px;
+  }
+
+  .tag {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .TheCoffee {
+    padding: 2em;
+    width: 100vw;
+  }
+
+  .TheCoffeeTwo .aCoffee {
+    padding: 10px;
+    width: 90vw;
+  }
+
+  #Products h2 {
+    padding: 0.4em;
+    font-size: 2em;
+  }
+
+  .aProducts {
+    padding: 0.3em;
+    width: 100%;
+  }
+
+  .aProducts img {
+    margin: 0.4em;
+    display: block;
+    max-width: 84%;
+  }
+
+  .aProducts figcaption {
+    padding: 0.3em;
+    font-size: 1.1em;
+    font-weight: 800;
+  }
+
+  .aProducts p {
+    padding: 0.3em;
+    font-size: 1.2em;
+    font-weight: 800;
+  }
+
+  footer section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  footer article {
+    padding: 0.5em;
+    align-items: left;
+    width: 100%;
+  }
+
+  footer article h2 {
+    text-align: left;
+  }
+
+  .media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  footer form input {
+    margin: 0.5em;
+    width: 180px;
+  }
+
+  .media {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  #dev {
+    height: 100px;
+  }
+
+  #dev article {
+    width: 300px;
+  }
+  
+  .clubArticle {
+    height: 94%;
+  }
+  
+  .clubArticle h2 {
+    padding: 1.9em 0.9em 0.1em 0.9em;
+    font-size: 2.2em;
+  }
+  
+  .clubArticle p {
+    padding: 1em;
+    font-size: 1.1em;
+  }
+  
+  .clubArticle button {
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+  font-size: 1em;
+  }
+
+  #contact {
+    justify-content: center;
+  }
+  
+  .contactArticle {
+    width: 80vw;
+    height: 98%;
+  }
+  
+  .contactArticle h2 {
+    padding: 1em;
+    color: #260b01;
+    font-size: 3em;
+  }
+  
+  .contactArticle h4 {
+    padding: 0 0 1.4em 1.4em;
+    font-size: 0.8em;
+  }
+
+  .contactArticle img {
+    display: none;
+  }
+
+  .contactContainer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 610px) {
+  header nav {
+    line-height: 1.6em;
+  }
+  nav ul li {
+    font-size: 0.6em;
+  }
+
+  #club {
+    padding: 0.4em;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+  }
+  
+  .clubArticle {
+    padding: 0.8em;
+    width: 70vw;
+    height: 90%;
+  }
+  
+  .clubArticle h2 {
+    padding: 2em 0.8em 0.4em 0.8em;
+    color: #260b01;
+    font-size: 3em;
+  }
+  
+  .clubArticle p {
+    padding: 0.8em;
+    font-size: 1.1em;
+  }
+  
+  .clubArticle button {
+    margin-top: 30px;
+  }
+
+  .contactArticle {
+    width: 90vw;
+    height: 100%;
+  }
+
+  .contactArticle h2 {
+    padding: 0.7em 0.5em 0 0;
+    font-size: 2.4em;
+  }
+
+  .contactArticle h4 {
+    padding: 1em;
+    font-size: 1em;
+  }
+
+  #contactForm input[type="button"] {
+    width: 200px;
+    height: 40px;
+    font-size: 1em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 406px) {
+  nav ul li a {
+    padding: 0.3em 0.6em 0.3em 0.6em;
+    font-size: 0.9em;
+  }
+}
